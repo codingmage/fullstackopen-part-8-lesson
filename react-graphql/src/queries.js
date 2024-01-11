@@ -36,7 +36,7 @@ mutation createPerson($name: String!, $street: String!, $city: String!, $phone: 
       name
       phone
       id
-      adress {
+      address {
           street
           city
       }
